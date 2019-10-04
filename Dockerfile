@@ -1,7 +1,7 @@
-FROM node:10
+FROM node:10-alpine
 WORKDIR /app
 COPY package.json /app
-RUN npm install
+
 COPY . /app
-#CMD http-server /app
-EXPOSE 8080
+CMD node _http.js
+EXPOSE 80
