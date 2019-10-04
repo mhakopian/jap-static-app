@@ -3,5 +3,5 @@ WORKDIR /app
 COPY package.json /app
 RUN npm install
 COPY . /app
-CMD http-server
+#CMD http-server /app
 EXPOSE 8080

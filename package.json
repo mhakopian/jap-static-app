@@ -4,7 +4,7 @@
   "description": "Example how to host static website or application with Jexia App Hosting",
   "main": "_http.js",
   "scripts": {
-    "preinstall": "npm i -g pm2 http-server",
+    "start": "http-server /app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,8 +26,6 @@
   },
   "homepage": "https://github.com/mhakopian/jap-static-app#readme",
   "dependencies": {
-    "jexia-sdk-js": "^4.2.0",
-    "node-fetch": "^2.6.0",
-    "ws": "^7.1.2"
+
   }
 }
